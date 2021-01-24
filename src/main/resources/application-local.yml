@@ -1,0 +1,4 @@
+const:
+  naver-url: 'https://www.naver.com'
+  web-driver-key: 'webdriver.chrome.driver'
+  web-driver-path: 'C:/projects/crawler/chromedriver.exe'
