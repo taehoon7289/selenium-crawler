@@ -13,7 +13,7 @@ public class NaverService {
     public String getMain() {
 
         //System Property SetUp
-        log.info(System.setProperty(Constant.WEB_DRIVER_KEY, Constant.WEB_DRIVER_PATH));
+        System.setProperty(Constant.WEB_DRIVER_KEY, Constant.WEB_DRIVER_PATH);
 
         WebDriver driver = new ChromeDriver();
         String url = Constant.NAVER_URL;
